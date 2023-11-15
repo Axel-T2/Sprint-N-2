@@ -4,11 +4,8 @@
 }
 
 #logo-chefsito{
-    width: 8%;
-    height: 8%;
+    width: 40%;
     padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
     background: radial-gradient(#ff7e7e,#d82020,#DC0000,#850000,black);
     border-radius: 50%;
     border: 2px solid black;
@@ -19,17 +16,19 @@ li{
 }
 header nav{
     display: flex;
+    align-content: center;
     background-color:rgb(220, 0, 0);
     justify-content: space-evenly;
     border-bottom: 8px solid rgb(133, 0, 0);
     border-top: 8px solid #850000;
+    height: 100%;
 }
 .titulo-l{
     font-size: 200%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 70px;
+    /* margin-right: 70px; */
 }
 h1{
     border-bottom: 2px solid;
@@ -55,6 +54,7 @@ h1{
     color: rgb(227, 227, 227);
 }
 .anclas{
+    display: flex;
     text-decoration: none;
     padding: 12px;
     background-color:rgb(255, 219, 137);
@@ -62,14 +62,18 @@ h1{
     background: linear-gradient(#FFF6C3,#fdc84e);
     box-shadow: 2px 3px 6px black;
     color: black;
-    margin: 3px;
+    justify-content: space-around;
+    
 }
 .links{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
-    
+    justify-content: space-around;
+}
+.l-caja{
+    display: flex;
+    justify-content: center;
+    width:150px ;
 }
 #empanadas-c{
     color: #850000;
@@ -108,16 +112,11 @@ ul{
     margin-left: 5%;
     margin-top: 3%;
 }
-a:hover{
+.anclas:hover{
     color: brown;
     font-size: 18px;
 }
-.l-caja{
 
-    width:150px ;
-    height: 180px;
-
-}
 .proceso{
     display: flex;
     flex-direction: column;
