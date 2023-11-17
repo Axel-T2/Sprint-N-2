@@ -1,4 +1,4 @@
-##-LA LINGUINI-
+<h2>-LA LINGUINI-</h2>
 
 <p>
 Esta pagina surgio mientras pensaba en empanadas, y el resultado fue este.
